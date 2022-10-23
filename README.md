@@ -14,9 +14,19 @@ Design an algorithm which will tell you where to deploy charging stations in a c
 
 ## Tech Stack:
 ### Front-End:
+HTML
+CSS
+Bootstrap
+
 ### Back-End: 
 Flask
 ### Data Engineering/ Scraping:
-### ML-Models/Miscellenaeous :
+
+### ML-Models/Miscellenaeous : 
+Folium
+Numpy
+Pandas
+Geopandas
+Scipy
 
 ## Solution:
