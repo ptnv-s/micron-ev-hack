@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Micron Project</title>
+   
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+          <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+
+  
+  <body>
+     <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center blue-text">EV Optimal Location Prediction</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict the optimal location of deployment of ev stations
+        <br>
+        </h5>
+      </div>
+
+      <!-- factors -->
+              <!-- <div class="row">
+    <form action='/predict' method="post" class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+            <label for="chargingPossibilty"><b>Charging Possibility</b></label>
+            <br>
+          <input placeholder="Enter Charging Possibility" name="Charging Possibility" id="chargingPossibilty" type="text" class="validate">
+        </div>
+        <div class="input-field col s4">
+
+          <label for="utilizationRate"><b>Utilization rate</b></label>
+            <br>
+          <input id="utilizationRate" name="utilizationRate" placeholder=" Enter Utilization Rate"  type="text" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="price"><b>Price</b></label>
+            <br>
+          <input id="price" name="price" placeholder="Enter price" type="text" class="validate">
+
+        </div>
+
+      </div>
+
+      <!-- second row -->
+
+      <!-- <div class="row">
+        <div class="input-field col s4">
+            <label for="noOfChargers"><b>Number Of Chargers</b></label>
+            <br>
+          <input placeholder="Enter number of chargers" name="noOfChargers" id="noOfChargers" type="text" class="validate">
+        </div>
+        <div class="input-field col s4">
+
+          <label for="averageBatteryCapacity"><b>Average Battery Capacity </b></label>
+            <br>
+          <input id="averageBatteryCapacity" name="averageBatteryCapacity" placeholder="Enter Average Battery Capacity"  type="text" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="numberOfStations"><b>Number Of Stations</b></label>
+            <br>
+          <input id="numberOfStations" name="numberOfStations" placeholder="Enter number of stations" type="text" class="validate">
+
+        </div> --> -->
+
+         <div class="row">
+          <form action='/predict' method="post" class="col s12">
+        <div class="input-field col s4">
+            <label for="noOfChargers"><b>Longitude</b></label>
+            <br>
+          <input placeholder="Enter latitude (between 80 deg S and 84 deg N)" name="noOfChargers" id="noOfChargers" type="text" min="-80" max="80" class="validate">
+        </div>
+
+
+        <div class="input-field col s4">
+
+          <label for="averageBatteryCapacity"><b>Latitude </b></label>
+            <br>
+          <input id="averageBatteryCapacity" name="averageBatteryCapacity" placeholder="Enter longitude (between 180 deg W and 180 deg E)"  type="text" min="-180" max="180" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+
+          <label for="n"><b>Locations to be tested</b></label>
+            <br>
+          <input id="n" name="averageBatteryCapacity" placeholder="Enter number of locations to be tested"  type="text" class="validate">
+
+        </div>
+
+      </div>
+
+      <div class="row center">
+
+          <button type="submit" class="btn-large waves-effect waves-light blue">Predict Probability</button>
+          <!-- <a href="https://www.google.com/" target="_blank">This is a link</a> -->
+      </div>
+    </form>
+      </div>
+      <!-- <div>
+        <h4>{{prediction}}</h4>
+      </div> -->
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
