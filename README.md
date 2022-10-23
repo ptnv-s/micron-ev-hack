@@ -36,6 +36,7 @@ Design an algorithm which will tell you where to deploy charging stations in a c
  - Numpy
  - Pandas
  - Scipy
+ - XGBOOST
 
 ## Solution:
 
