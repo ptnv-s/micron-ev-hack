@@ -38,6 +38,6 @@ Design an algorithm which will tell you where to deploy charging stations in a c
  - Scipy
  - XGBOOST
 
-## Solution:
+## Proposed Solution:
 
  - Recommendation of Optimal EV Charging Points in the neighbourhood area of the location given by the user as input.
